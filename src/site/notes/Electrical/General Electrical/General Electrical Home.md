@@ -3,4 +3,4 @@
 ---
 
 ## Informational Guides
-- 
+- [[Electrical/General Electrical/Altium Onboarding Guide\|Altium Onboarding Guide]]
