@@ -9,9 +9,4 @@
 4. Download Altium from [THIS SPECIFIC LINK](https://www.altium.com/products/downloads) 
 	- Make sure the latest version is selected on the right for Altium Designer then click “Online Installer” and you’ll get an exe to install Altium
 
-![[step1.PNG]]
-
-this should ahve two png
-
-![[step2.PNG]]
 ### For License Admin
