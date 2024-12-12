@@ -3,3 +3,5 @@
 ---
 
 new homepage
+
+hi i link to [[second page\|second page]]
