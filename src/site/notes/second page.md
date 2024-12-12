@@ -3,4 +3,4 @@
 ---
 
 
-hi i link from [[homepage\|homepage]]
+hi i link from [[Welcome!\|Welcome!]]
