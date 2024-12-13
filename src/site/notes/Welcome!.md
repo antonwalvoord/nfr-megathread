@@ -9,6 +9,7 @@ This website serves as an informational hub for all things NFR. If you have ques
 ## Quick Links
 - [[Electrical/General Electrical/General Electrical Home\|General Electrical Home]]
 - [[Mechanical/General Mechanical/General Mechanical Home\|General Mechanical Home]]
+- [[FSAE 2025 Rules.pdf]]
 - [CAN DBC](https://nfr-learn.ue.r.appspot.com/can)
 
 ## Subteam Specific Links
