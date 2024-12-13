@@ -11,4 +11,4 @@ This website serves as an informational hub for all things NFR. If you have ques
 - [CAN DBC](https://nfr-learn.ue.r.appspot.com/can)
 
 ## Subteam Specific Links
-- 
+- [[Electrical/Power Distribution/Power Distribution Home\|Power Distribution Home]]
