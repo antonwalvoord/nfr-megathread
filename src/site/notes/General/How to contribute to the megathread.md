@@ -2,9 +2,11 @@
 {"dg-publish":true,"permalink":"/general/how-to-contribute-to-the-megathread/"}
 ---
 
-# Software
+# Obsidian
+Obsidian is what I use to edit the megathread and I highly recommend it. It stores files locally so you can edit/view them offline. It also has incredible support for plugins, 3 of which I use extensively and have setup information for below.
+- Download Obsidian [here](https://obsidian.md/download)
 
-### ==Obsidian==
+After installing Obsidian, launch it and create a new vault called "MEGATHREAD" in a file location of your choice. Don't add any files to the vault yet. Then set up the plugins below (Git is mandatory, the others are extremely useful).
 #### Plugins
 ##### Git
 In order to make sure everyone is operating off of a shared version we use Git for version control. Obsidian has a great plugin for this which makes it incredibly easy to stay in sync with the repo.
