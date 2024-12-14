@@ -4,3 +4,7 @@
 
 ## Informational Guides
 - [[Electrical/General Electrical/Altium Onboarding Guide\|Altium Onboarding Guide]]
+
+
+
+![thismightwork](/img/user/Electrical/General Electrical/thismightwork.PNG)
