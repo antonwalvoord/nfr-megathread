@@ -14,8 +14,9 @@
 - [[Electrical/Drivetrain Electronics/Drivetrain Electronics Home\|Drivetrain Electronics]]
 	- ==Fill in==
 - [[Electrical/Power Distribution/Power Distribution Home\|Power Distribution]]
-	- [[Electrical/Power Distribution/PDM/Power Distribution Module\|Power Distribution Module]]
 	- [[Electrical/Power Distribution/Harness/Harness\|Harness]]
+	- [[Electrical/Power Distribution/LV Battery/LV Battery\|LV Battery]]
 	- [[Electrical/Power Distribution/LV Charger/LV Charger\|LV Charger]]
+	- [[Electrical/Power Distribution/PDM/Power Distribution Module\|Power Distribution Module]]
 - [[Electrical/Safety Electronics/Safety Electronics Home\|Safety Electronics]]
 	- ==Fill in==
