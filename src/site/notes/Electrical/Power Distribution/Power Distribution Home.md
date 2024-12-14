@@ -2,5 +2,6 @@
 {"dg-publish":true,"permalink":"/electrical/power-distribution/power-distribution-home/"}
 ---
 
-![[maybeonlyworksnewlyuplaoded.PNG]]
 
+
+![](https://i.imgur.com/tbzbJr7.png)
