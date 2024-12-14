@@ -6,4 +6,4 @@
 
 updating this so it checks again
 
-![[testing_new_location.PNG]]
+![newlocation](/img/user/img/user/testing_new_location.PNG)
