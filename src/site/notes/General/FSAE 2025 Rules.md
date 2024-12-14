@@ -3,5 +3,6 @@
 ---
 
 updating this so it registers
+new test
 
-![[FSAE_Rules_2025_V1.pdf]]
+![rules](FSAE_Rules_2025_V1.pdf)
