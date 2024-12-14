@@ -21,14 +21,3 @@ This website serves as an informational hub for all things Northwestern Formula 
 
 ## Subteam Specific Links
 - [[Electrical/Power Distribution/Power Distribution Home\|Power Distribution Home]]
-
-
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/electrical/power-distribution/power-distribution-home/#about" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
-
-# About:
-Power Distribution is in charge of all of the grounded low voltage (GLV) power throughout the car. It also handles signal propagation both inside and outside of enclosures through the [[Electrical/Power Distribution/Harness/Harness\|Harness]]. It supplies power from the [[Electrical/Power Distribution/LV Battery/LV Battery\|LV Battery]] which is distributed by the [[Electrical/Power Distribution/PDM/Power Distribution Module\|Power Distribution Module]] and charged by the [[Electrical/Power Distribution/LV Charger/LV Charger\|LV Charger]].
-
-</div></div>
