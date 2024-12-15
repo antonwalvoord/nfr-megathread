@@ -2,10 +2,10 @@
 {"dg-publish":true,"permalink":"/electrical/general-electrical/general-electrical-home/","pinned":true}
 ---
 
+## [[General/Car Architecture#Electrical\|Electrical Architecture]]
 ## Informational Guides
 - [[Electrical/General Electrical/Altium Onboarding Guide\|Altium Onboarding Guide]]
 - [[General/UTM (Free Windows Emulator) Setup Guide\|UTM (Free Windows Emulator) Setup Guide]]
-
 ## Full Project List
 - [[Electrical/BMS/Battery Management System Home\|BMS:]]
 	- ==Fill in==
