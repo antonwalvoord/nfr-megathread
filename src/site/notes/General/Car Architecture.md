@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/general/car-architecture/"}
 ---
 
+🚧UNDER CONSTRUCTION [[General/How to contribute to the megathread\|You Can Help!]]🚧
 # Mechanical
 🚧I need help for this🚧
 # Electrical
