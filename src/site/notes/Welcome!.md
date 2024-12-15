@@ -12,6 +12,8 @@ This website serves as an informational hub for all things Northwestern Formula 
 > To return to the homepage at any time, click the "nfr-megathread" text at the top of the page/left sidebar
 > 
 > To search whole site, use ctrl/cmd+k (searches contents of every page!)
+> 
+> The graph view is much easier to read if you click and hold on a central node and jiggle it around a little so everything settles into a more stable place
 ## Quick Links
 - [[Electrical/General Electrical/General Electrical Home\|General Electrical Home]]
 - [[Mechanical/General Mechanical/General Mechanical Home\|General Mechanical Home]]
