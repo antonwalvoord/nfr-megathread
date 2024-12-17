@@ -13,4 +13,4 @@ Power Distribution is in charge of all of the grounded low voltage (GLV) power t
 - [[Electrical/Power Distribution/LV Charger/LV Charger\|LV Charger]]
 - [[Electrical/Power Distribution/PDM/Power Distribution Module\|Power Distribution Module]]
 
-![first vid](https://www.youtube.com/watch?v=2AXv49dDQJw)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2AXv49dDQJw?si=ConX3bmYoIWX-LYj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
