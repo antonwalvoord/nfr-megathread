@@ -16,7 +16,8 @@
 ### Battery Structure
 ##### Accumulator
 🚧voltage/amperage/fusing🚧
-##### LV Battery
+##### Low Voltage (LV) Battery
+The LV Battery powers everything other than the [[General/Team Terminology#Tractive System (TS)\|Tractive System]]. It's located in the [[General/Car Architecture#LV Box\|#LV Box]] and 
 🚧voltage/amperage/fusing🚧
 ### Power Distribution
 ### Enclosures
