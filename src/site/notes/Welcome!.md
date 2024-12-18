@@ -15,7 +15,7 @@ This website serves as an informational hub for all things Northwestern Formula 
 > 
 > The graph view is much easier to read if you click and hold on a central node and jiggle it around a little so everything settles into a more stable place
 ## Quick Links
-- [[Electrical/General Electrical/General Electrical Home\|General Electrical Home]]
+- [[Electrical/General Electrical Home\|General Electrical Home]]
 - [[Mechanical/General Mechanical/General Mechanical Home\|General Mechanical Home]]
 - ***[[General/Car Architecture\|Car Architecture]]***
 - [[General/FSAE 2025 Rules\|FSAE 2025 Rules]]
