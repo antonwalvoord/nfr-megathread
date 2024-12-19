@@ -17,14 +17,25 @@ We have stuck with the traditional single motor + differential setup for simplic
 ### CAN (Controller Area Network)
 ### Battery Structure
 ##### Accumulator
-🚧voltage/amperage/fusing🚧
+*overview text*
+###### Full Pack Electrical Structure
+
+| Cells        | Configuration                       | Max Voltage | Nominal Voltage | Capacity | Fused Current                                                                                                                                                                                                                                                          |
+| ------------ | ----------------------------------- | ----------- | --------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Molicel p45b | 5 Series Segments *see table below* | 588 V       | 504 V           | 🚧       | 80 A<br>[Fuse](https://www.mouser.com/ProductDetail/Littelfuse/L75QS080.V?qs=w%2Fv1CP2dgqquMmGcdv%252B%252BVQ%3D%3D)<br>[Datasheet](https://www.littelfuse.com/~/media/electrical/datasheets/fuses/semiconductor-fuses/littelfuse-industrial-l75qs-fuse-datasheet.pdf) |
+###### Single Segment Electrical Structure
+
+| Cells        | Configuration                                                    | Max Voltage | Nominal Voltage | Capacity | Fused Current |
+| ------------ | ---------------------------------------------------------------- | ----------- | --------------- | -------- | ------------- |
+| Molicel p45b | [[General/Team Terminology#Battery Pack Configuration Shorthand\|28s3p]] | 117.6 V     | 100.8 V         | 🚧       | 80 A          |
+
 ##### Low Voltage (LV) Battery
 The [[Electrical/Power Distribution/LV Battery/LV Battery\|LV Battery]] powers everything other than the [[General/Team Terminology#Tractive System (TS)\|Tractive System]]. It's located in the [[General/Car Architecture#LV Box\|#LV Box]]. The mechanical structure is designed by the [[Mechanical/Accumulator/Accumulator Home\|Accumulator Subteam]] and the electrical structure is designed by the [[Electrical/Power Distribution/Power Distribution Home\|Power Distribution Subteam]].
 ###### Electrical Structure
 
-| Cells        | Configuration                                                   | Max Voltage | Nominal Voltage | Capacity | Fused Current |
-| ------------ | --------------------------------------------------------------- | ----------- | --------------- | -------- | ------------- |
-| Molicel p42a | [[General/Team Terminology#Battery Pack Configuration Shorthand\|6s3p]] | 25.2 V      | 21.6 V          | 12.6 Ah  | 40 A          |
+| Cells        | Configuration                                                   | Max Voltage | Nominal Voltage | Capacity | Fused Current                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ------------ | --------------------------------------------------------------- | ----------- | --------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Molicel p42a | [[General/Team Terminology#Battery Pack Configuration Shorthand\|6s3p]] | 25.2 V      | 21.6 V          | 12.6 Ah  | 40 A<br>[Fuse](https://www.amazon.com/10-Gauge-Fuse-Holder-Inline/dp/B08BWRSPY1?dib=eyJ2IjoiMSJ9.vuYlDa2txSh6Zmx3MLj9wc5uGWHiZR2Q8by8QNJDr8cc6y9QQzti57G2FkvxKqKzcQL90m9nQ0zvgL5su5yz29-C_P5KfYbr_1z2RdFWmIeCEIjXZqjA8PFUbJtNWU6_HPG3r-uRpntWeJgxSF91OkFJaOue_GKh9wW26pJTeCgiRq4BP6P6voq1an-s0Gh4JByEDldbrBXKNq93LgL0VmZMaohmUVMDw-cFZH5oJso.IPsoKR0fJrqTcGYysaPA13FZ_-s9KsaNJZmP5K3pZHI&dib_tag=se&keywords=40+amp+fuse+holder&qid=1721963637&sr=8-3) |
 ### Power Distribution
 ### Enclosures
 ##### Dashbox
