@@ -18,8 +18,8 @@ We have stuck with the traditional single motor + differential setup for simplic
 ### Battery Structure
 ##### Accumulator
 🚧voltage/amperage/fusing🚧
-##### [[Electrical/Power Distribution/LV Battery/LV Battery\|Low Voltage (LV) Battery]]
-The LV Battery powers everything other than the [[General/Team Terminology#Tractive System (TS)\|Tractive System]]. It's located in the [[General/Car Architecture#LV Box\|#LV Box]]. The mechanical structure is designed by the [[Mechanical/Accumulator/Accumulator Home\|Accumulator Subteam]] and the electrical structure is designed by the [[Electrical/Power Distribution/Power Distribution Home\|Power Distribution Subteam]].
+##### Low Voltage (LV) Battery
+The [[Electrical/Power Distribution/LV Battery/LV Battery\|LV Battery]] powers everything other than the [[General/Team Terminology#Tractive System (TS)\|Tractive System]]. It's located in the [[General/Car Architecture#LV Box\|#LV Box]]. The mechanical structure is designed by the [[Mechanical/Accumulator/Accumulator Home\|Accumulator Subteam]] and the electrical structure is designed by the [[Electrical/Power Distribution/Power Distribution Home\|Power Distribution Subteam]].
 ###### Electrical Structure
 
 | Cells        | Configuration                                                   | Max Voltage | Nominal Voltage | Capacity | Fused Current |
