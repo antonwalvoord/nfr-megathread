@@ -25,6 +25,8 @@ Described by **EV.5.3**: Electrically connects and disconnects [[General/Team Te
 Described by **EV.5.4**: Normally open relays which disconnect the two poles of the [[General/Team Terminology#Accumulator\|Accumulator]] and prevent High Voltage **T.9.1.1** from being present outside the Accumulator container.
 ##### Manual Service Disconnect (MSD)
 By **EV.5.5** "A Manual Service Disconnect (MSD) must be included to quickly disconnect one or the two poles of the Accumulator **EV.11.3.2**"
+##### Interlocks
+🚧Under [[General/How to contribute to the megathread\|construction]]🚧
 
 
 ##### Battery Pack Configuration Shorthand

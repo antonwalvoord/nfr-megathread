@@ -12,6 +12,7 @@ We have stuck with the traditional single motor + differential setup for simplic
 ### Overview
 🚧draw.io output and generals🚧
 ### Shutdown Circuit
+The shutdown circuit (Described in [[General/FSAE 2025 Rules\|EV.7.2]]) is a safety mechanism which serves to disconnect the [[General/Team Terminology#Tractive System (TS)\|Tractive System]] either automatically or manually. This is done through a series of switches and [[General/Team Terminology#Interlocks\|interlocks]] which can break power supply to the [[General/Team Terminology#Isolation Relays (IR)\|IR'S]] thus isolating the Tractive System from the outside world to protect us from the high voltage. For specifics on the wiring, see the drawing below.
 ![](https://i.imgur.com/7lUzD3D.png)
 
 ### CAN (Controller Area Network)
