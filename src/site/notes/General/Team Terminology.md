@@ -26,7 +26,7 @@ Described by **EV.5.4**: Normally open relays which disconnect the two poles of 
 ##### Manual Service Disconnect (MSD)
 By **EV.5.5** "A Manual Service Disconnect (MSD) must be included to quickly disconnect one or the two poles of the Accumulator **EV.11.3.2**"
 ##### Interlocks
-🚧Under [[General/How to contribute to the megathread\|construction]]🚧
+Described in **EV.7.8**: Interlocks are wires or connections which when unplugged open the shutdown circuit. Think of it like a safety switch which detects whether or not a plug is plugged in. They are required on the [[General/Team Terminology#Manual Service Disconnect (MSD)\|MSD]] and on any [[General/Team Terminology#Tractive System (TS)\|TS]] connector outside of a housing (including those that are mounted on a housing)
 
 
 ##### Battery Pack Configuration Shorthand
