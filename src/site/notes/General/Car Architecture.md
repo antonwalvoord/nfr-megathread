@@ -11,25 +11,27 @@ We have stuck with the traditional single motor + differential setup for simplic
 >[!Warning] For most up to date information, check the [draw.io](https://app.diagrams.net/#G1aAUkTBznf-oBW0_HJwPR886YPGE_Ngbq#%7B%22pageId%22%3A%22AH0zOfJDxDtdpztpxlL7%22%7D)
 ### Overview
 🚧draw.io output and generals🚧
-### Shutdown Circuit
+
 ---
+### Shutdown Circuit
 The shutdown circuit (Described in [[General/FSAE 2025 Rules\|EV.7.2]]) is a safety mechanism which serves to disconnect the [[General/Team Terminology#Tractive System (TS)\|Tractive System]] either automatically or manually. This is done through a series of switches and [[General/Team Terminology#Interlocks\|interlocks]] which can break power supply to the [[General/Team Terminology#Isolation Relays (IR)\|IR'S]] thus isolating the Tractive System from the outside world to protect us from the high voltage. For specifics on the wiring, see the drawing below.
 
 ![](https://i.imgur.com/7lUzD3D.png)
 
-### CAN (Controller Area Network)
 ---
+### CAN (Controller Area Network)
 CAN is a rugged information bus protocol that allows many devices to communicate with one another over a limited number of wires (two per bus). On NFR25 we have two separate CAN busses. This means that devices can only communicate with other devices on the same bus (unless they use another device which is on both busses as an intermediary). Our two CAN busses are called *DATA* and *DRIVE* CAN.
 
 For more information on how CAN actually works, refer to [this article on DigiKey](https://forum.digikey.com/t/overview-of-the-can-bus-protocol/21170) 
 
 ![](https://i.imgur.com/WLkDqtt.png)
-### Battery Structure
+
 ---
+### Battery Structure
 #### Accumulator
 🚧 *overview text* 🚧
 The [[General/Team Terminology#Accumulator\|Accumulator]] is the high voltage battery which supplies the power that drives our motor. It is important to exercise caution when handling the Accumulator
-	###### Full Pack Electrical Structure
+###### Full Pack Electrical Structure
 
 | Cells        | Configuration                       | Max Voltage | Nominal Voltage | Capacity | Fused Current                                                                                                                                                                                                                                                          |
 | ------------ | ----------------------------------- | ----------- | --------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
