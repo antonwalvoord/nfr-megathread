@@ -20,9 +20,9 @@ The shutdown circuit (Described in [[General/FSAE 2025 Rules\|EV.7.2]]) is a saf
 
 ---
 ### CAN (Controller Area Network)
-CAN is a rugged information bus protocol that allows many devices to communicate with one another over a limited number of wires (two per bus). On NFR25 we have two separate CAN busses. This means that devices can only communicate with other devices on the same bus (unless they use another device which is on both busses as an intermediary). Our two CAN busses are called *DATA* and *DRIVE* CAN.
+CAN is a rugged information bus protocol that allows many devices to communicate with one another over a limited number of wires (two per bus). On NFR25 we have two separate CAN busses. This means that devices can only communicate with other devices on the same bus (unless they use another device which is on both busses as an intermediary). Our two CAN busses are called *DATA* and **DRIVE** CAN. *DATA* is (as the name suggests) intended for purely data acquisition purposes and is not [[General/Team Terminology#Drive Critical\|drive critical]]. **DRIVE** contains information directly related to controlling the driving of the car and is drive critical. There are two buses to reduce the [[General/Team Terminology#Bus Load\|bus load]] of any one bus which is intended to make the car's communication network more robust.
 
-For more information on how CAN actually works, refer to [this article on DigiKey](https://forum.digikey.com/t/overview-of-the-can-bus-protocol/21170) 
+For more low level information on how CAN actually works, refer to [this article on DigiKey](https://forum.digikey.com/t/overview-of-the-can-bus-protocol/21170) 
 
 ![](https://i.imgur.com/WLkDqtt.png)
 
@@ -49,7 +49,12 @@ The [[Electrical/Power Distribution/LV Battery/LV Battery\|LV Battery]] powers e
 | Cells        | Configuration                                                   | Max Voltage | Nominal Voltage | Capacity | Fused Current                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | ------------ | --------------------------------------------------------------- | ----------- | --------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Molicel p42a | [[General/Team Terminology#Battery Pack Configuration Shorthand\|6s3p]] | 25.2 V      | 21.6 V          | 12.6 Ah  | 40 A<br>[Fuse](https://www.amazon.com/Chanzon-50Pcs-Listed-Standard-Automotive/dp/B0CYP881ZL?crid=KOYM53VK3BJI&dib=eyJ2IjoiMSJ9.kAud1lwfnSJMHH_HHJksJ3AayT8HQIqm2DRrKdBcHMnv_5H38w8UA5qC38SW-9TZeDXUhWiUH5apFWH5WxkjyAqGwauFDSRfrqBKFBpEtEMMDnBAl-fw4ZHpuBtrKXKUkab2x4VEEME3K_TacMuT8-gI3TrKF94495g-FLnbpBmou8O6N8UpJYpcsO5qqdaKDeMduAyfolulBSMIC2Yjs8qKYCl8mqNGbtF5UdIVvy0.ofn3doJM6QnXEOKwYIaudk923TirJMeK_C6ZZ_5s2C0&dib_tag=se&keywords=40%2Bamp%2Batc%2Bfuse&qid=1721963859&sprefix=40%2Bamp%2Batc%2Bfus%2Caps%2C117&sr=8-4&th=1) |
+
+---
 ### Power Distribution
+All [[General/Team Terminology#Grounded Low Voltage (GLV)\|GLV]] power is supplied by the [[General/Car Architecture#Low Voltage (LV) Battery\|LV Battery]] 
+
+---
 ### Enclosures
 #### Dashbox
 #### LV Box
