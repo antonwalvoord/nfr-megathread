@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/electrical/general-electrical-home/","pinned":true}
 ---
 
-## [[General/Car Architecture#Electrical\|Electrical Architecture]]
+## [[Car Architecture#Electrical\|Electrical Architecture]]
 ## [CAN DBC](https://nfr-learn.ue.r.appspot.com/can)
 ## Informational Guides
 - [[Electrical/General Electrical/Altium Onboarding Guide\|Altium Onboarding Guide]]

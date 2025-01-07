@@ -10,7 +10,7 @@ By **EV.1.2**: "Every electrical part that is not part of the Tractive System" M
 ##### Accumulator
 By **EV.1.3**: "All the battery cells or super capacitors that store the electrical energy to be used by the Tractive System" More rules found in **EV.5.1**
 ##### Penthouse
-This is an internal term which describes the upper portion of our Accumulator container. We make this distinction as the [[General/Car Architecture#Penthouse\|penthouse]] contains the logic portion of the Accumulator, whereas we refer to the portion which contains the battery cells as simply the Accumulator. ==*By rules the penthouse is indistinguishable from the Accumulator*==
+This is an internal term which describes the upper portion of our Accumulator container. We make this distinction as the [[Car Architecture#Penthouse\|penthouse]] contains the logic portion of the Accumulator, whereas we refer to the portion which contains the battery cells as simply the Accumulator. ==*By rules the penthouse is indistinguishable from the Accumulator*==
 ##### Energy Meter
 Described in **EV.3.2**: Measures power and voltage of the accumulator to ensure [[General/FSAE 2025 Rules\|rules]] compliance to **EV.3.3**
 ##### Motor Controller / Inverter
@@ -26,7 +26,7 @@ Described by **EV.5.4**: Normally open relays which disconnect the two poles of 
 ##### Manual Service Disconnect (MSD)
 By **EV.5.5** "A Manual Service Disconnect (MSD) must be included to quickly disconnect one or the two poles of the Accumulator **EV.11.3.2**"
 ##### Shutdown Circuit
-The shutdown circuit (Described in [[General/FSAE 2025 Rules\|EV.7.2]]) is a safety mechanism which serves to disconnect the [[General/Team Terminology#Tractive System (TS)\|Tractive System]] either automatically or manually. This is done through a series of switches and [[General/Team Terminology#Interlocks\|interlocks]] which can break power supply to the [[General/Team Terminology#Isolation Relays (IR)\|IR'S]] thus isolating the Tractive System from the outside world to protect us from the high voltage. For specifics on the wiring, see the [[General/Car Architecture#Shutdown Circuit\|car architecture]].
+The shutdown circuit (Described in [[General/FSAE 2025 Rules\|EV.7.2]]) is a safety mechanism which serves to disconnect the [[General/Team Terminology#Tractive System (TS)\|Tractive System]] either automatically or manually. This is done through a series of switches and [[General/Team Terminology#Interlocks\|interlocks]] which can break power supply to the [[General/Team Terminology#Isolation Relays (IR)\|IR'S]] thus isolating the Tractive System from the outside world to protect us from the high voltage. For specifics on the wiring, see the [[Car Architecture#Shutdown Circuit\|car architecture]].
 ##### Interlocks
 Described in **EV.7.8**: Interlocks are wires or connections which when unplugged open the shutdown circuit. Think of it like a safety switch which detects whether or not a plug is plugged in. They are required on the [[General/Team Terminology#Manual Service Disconnect (MSD)\|MSD]] and on any [[General/Team Terminology#Tractive System (TS)\|TS]] connector outside of a housing (including those that are mounted on a housing)
 

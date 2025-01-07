@@ -4,7 +4,7 @@
 
 🚧UNDER CONSTRUCTION [[General/How to contribute to the megathread\|You Can Help!]]🚧
 
-## [[General/Car Architecture#Mechanical\|Mechanical Architecture]]
+## [[Car Architecture#Mechanical\|Mechanical Architecture]]
 ## Informational Guides
 - [[General/UTM (Free Windows Emulator) Setup Guide\|UTM (Free Windows Emulator) Setup Guide]]
 ## Full Project List
