@@ -1,6 +1,7 @@
 ---
-dg-publish: true
+{"dg-publish":true,"permalink":"/general/useful-contacts/"}
 ---
+
 ### University
 #### Antonio
 Tech shipping and receiving

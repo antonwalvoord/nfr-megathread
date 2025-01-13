@@ -3,7 +3,7 @@
 ---
 
 The following address delivers to the "office", which is in the very lowest floor of the Ford Design Center. Note that Ford falls in the really small zip code of 60208, whereas most of the rest of the area has 60201, but putting in 60201 will also work. 
-test
+
 2133 Sheridan Rd
 S.B. 250
 Evanston IL 60208
