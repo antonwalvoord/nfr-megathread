@@ -1,10 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/electrical/general-electrical-home/","pinned":true}
+dg-publish: true
+dg-pinned: true
 ---
-
 ## [[Car Architecture#Electrical\|Electrical Architecture]]
 ## [CAN DBC](https://nfr-learn.ue.r.appspot.com/can)
 ## Informational Guides
+- [[Electrical/NFR Electrical Design Guide\|NFR Electrical Design Guide]]
 - [[Electrical/General Electrical/Altium Onboarding Guide\|Altium Onboarding Guide]]
 - [[General/UTM (Free Windows Emulator) Setup Guide\|UTM (Free Windows Emulator) Setup Guide]]
 ## Full Project List
