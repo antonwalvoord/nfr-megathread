@@ -1,7 +1,7 @@
 ---
-dg-publish: true
-dg-pinned: true
+{"dg-publish":true,"permalink":"/electrical/general-electrical-home/","pinned":true}
 ---
+
 ## [[Car Architecture#Electrical\|Electrical Architecture]]
 ## [CAN DBC](https://nfr-learn.ue.r.appspot.com/can)
 ## Informational Guides
@@ -11,6 +11,7 @@ dg-pinned: true
 ## Full Project List
 - [[Electrical/BMS/Battery Management System Home\|BMS:]]
 	- ==Fill in==
+	for update
 - [[Electrical/DAQ/Data Acquisition Home\|DAQ]]
 	- ==Fill in==
 - [[Electrical/Drivetrain Electronics/Drivetrain Electronics Home\|Drivetrain Electronics]]
