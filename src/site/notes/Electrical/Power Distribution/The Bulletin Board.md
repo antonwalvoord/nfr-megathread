@@ -6,7 +6,7 @@
 ## Hardware
 - Implement efuse circuit fix on AC lines
 - Connect and test Pump and Fan
-f
+
 ## Software
 - Officially get current sensing working properly
 - Get software based fusing working
