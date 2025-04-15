@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/general/car-architecture/"}
+{"dg-publish":true,"permalink":"/car-architecture/"}
 ---
 
 🚧UNDER CONSTRUCTION [[General/How to contribute to the megathread\|You Can Help!]]🚧
@@ -10,26 +10,32 @@ We have stuck with the traditional single motor + differential setup for simplic
 # Electrical
 >[!Warning] For most up to date information, check the [draw.io](https://app.diagrams.net/#G1aAUkTBznf-oBW0_HJwPR886YPGE_Ngbq#%7B%22pageId%22%3A%22AH0zOfJDxDtdpztpxlL7%22%7D)
 ### Overview
+![](https://i.imgur.com/IrDRmHq.png)
+
 🚧draw.io output and generals🚧
-### Shutdown Circuit
+
 ---
+### Shutdown Circuit
 The shutdown circuit (Described in [[General/FSAE 2025 Rules\|EV.7.2]]) is a safety mechanism which serves to disconnect the [[General/Team Terminology#Tractive System (TS)\|Tractive System]] either automatically or manually. This is done through a series of switches and [[General/Team Terminology#Interlocks\|interlocks]] which can break power supply to the [[General/Team Terminology#Isolation Relays (IR)\|IR'S]] thus isolating the Tractive System from the outside world to protect us from the high voltage. For specifics on the wiring, see the drawing below.
 
-![](https://i.imgur.com/7lUzD3D.png)
+![](https://i.imgur.com/p0XU1E7.png)
 
+---
 ### CAN (Controller Area Network)
+CAN is a rugged information bus protocol that allows many devices to communicate with one another over a limited number of wires (two per bus). On NFR25 we have two separate CAN busses. This means that devices can only communicate with other devices on the same bus (unless they use another device which is on both busses as an intermediary). Our two CAN busses are called *DATA* and **DRIVE** CAN. *DATA* is (as the name suggests) intended for purely data acquisition purposes and is not [[General/Team Terminology#Drive Critical\|drive critical]]. **DRIVE** contains information directly related to controlling the driving of the car and is drive critical. There are two buses to reduce the [[General/Team Terminology#Bus Load\|bus load]] of any one bus which is intended to make the car's communication network more robust.
+
+>[!note] For more low level information on how CAN actually works, refer to [this article on DigiKey](https://forum.digikey.com/t/overview-of-the-can-bus-protocol/21170) or [this](https://www.digikey.com/en/blog/the-basics-of-the-controller-area-network) one, as well as [this](https://www.csselectronics.com/pages/can-bus-errors-intro-tutorial) article on CAN errors
+
+The drawing below denotes which devices are connected to which CAN busses, arranged as to approximate location within the car.
+
+![](https://i.imgur.com/tYnMink.png)
+
 ---
-CAN is a rugged information bus protocol that allows many devices to communicate with one another over a limited number of wires (two per bus). On NFR25 we have two separate CAN busses. This means that devices can only communicate with other devices on the same bus (unless they use another device which is on both busses as an intermediary). Our two CAN busses are called *DATA* and *DRIVE* CAN.
-
-For more information on how CAN actually works, refer to [this article on DigiKey](https://forum.digikey.com/t/overview-of-the-can-bus-protocol/21170) 
-
-![](https://i.imgur.com/WLkDqtt.png)
 ### Battery Structure
----
 #### Accumulator
 🚧 *overview text* 🚧
 The [[General/Team Terminology#Accumulator\|Accumulator]] is the high voltage battery which supplies the power that drives our motor. It is important to exercise caution when handling the Accumulator
-	###### Full Pack Electrical Structure
+###### Full Pack Electrical Structure
 
 | Cells        | Configuration                       | Max Voltage | Nominal Voltage | Capacity | Fused Current                                                                                                                                                                                                                                                          |
 | ------------ | ----------------------------------- | ----------- | --------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -41,13 +47,18 @@ The [[General/Team Terminology#Accumulator\|Accumulator]] is the high voltage ba
 | Molicel p45b | [[General/Team Terminology#Battery Pack Configuration Shorthand\|28s3p]] | 117.6 V     | 100.8 V         | 🚧       | 80 A          |
 
 #### Low Voltage (LV) Battery
-The [[Electrical/Power Distribution/LV Battery/LV Battery\|LV Battery]] powers everything other than the [[General/Team Terminology#Tractive System (TS)\|Tractive System]]. It's located in the [[General/Car Architecture#LV Box\|#LV Box]]. The mechanical structure is designed by the [[Mechanical/Accumulator/Accumulator Home\|Accumulator Subteam]] and the electrical structure is designed by the [[Electrical/Power Distribution/Power Distribution Home\|Power Distribution Subteam]].
+The [[Electrical/Power Distribution/LV Battery/LV Battery\|LV Battery]] powers everything other than the [[General/Team Terminology#Tractive System (TS)\|Tractive System]]. It's located in the [[Car Architecture#LV Box\|#LV Box]]. The mechanical structure is designed by the [[Mechanical/Accumulator/Accumulator Home\|Accumulator Subteam]] and the electrical structure is designed by the [[Electrical/Power Distribution/Power Distribution Home\|Power Distribution Subteam]].
 ###### Electrical Structure
 
 | Cells        | Configuration                                                   | Max Voltage | Nominal Voltage | Capacity | Fused Current                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | ------------ | --------------------------------------------------------------- | ----------- | --------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Molicel p42a | [[General/Team Terminology#Battery Pack Configuration Shorthand\|6s3p]] | 25.2 V      | 21.6 V          | 12.6 Ah  | 40 A<br>[Fuse](https://www.amazon.com/Chanzon-50Pcs-Listed-Standard-Automotive/dp/B0CYP881ZL?crid=KOYM53VK3BJI&dib=eyJ2IjoiMSJ9.kAud1lwfnSJMHH_HHJksJ3AayT8HQIqm2DRrKdBcHMnv_5H38w8UA5qC38SW-9TZeDXUhWiUH5apFWH5WxkjyAqGwauFDSRfrqBKFBpEtEMMDnBAl-fw4ZHpuBtrKXKUkab2x4VEEME3K_TacMuT8-gI3TrKF94495g-FLnbpBmou8O6N8UpJYpcsO5qqdaKDeMduAyfolulBSMIC2Yjs8qKYCl8mqNGbtF5UdIVvy0.ofn3doJM6QnXEOKwYIaudk923TirJMeK_C6ZZ_5s2C0&dib_tag=se&keywords=40%2Bamp%2Batc%2Bfuse&qid=1721963859&sprefix=40%2Bamp%2Batc%2Bfus%2Caps%2C117&sr=8-4&th=1) |
+
+---
 ### Power Distribution
+All [[General/Team Terminology#Grounded Low Voltage (GLV)\|GLV]] power is supplied by the [[Car Architecture#Low Voltage (LV) Battery\|LV Battery]] 
+
+---
 ### Enclosures
 #### Dashbox
 #### LV Box

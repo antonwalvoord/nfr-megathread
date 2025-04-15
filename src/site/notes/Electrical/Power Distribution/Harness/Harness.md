@@ -4,20 +4,30 @@
 
 ### Members in charge
 - [Brandon](https://nufsae.slack.com/team/U07PL43NDFE)
-	- Design: Dashbox Internal Harness
+	- Design: [[Car Architecture#Dashbox\|Dashbox]] Internal Harness
 	- Manufacture: Wheel Harnesses
 - [Charmaine](https://nufsae.slack.com/team/U07PHHCPLNP)
-	- Design: Backbox Internal Harness
+	- Design: [[Car Architecture#Backbox\|Backbox]] Internal Harness
 	- Manufacture: Top Hoop Harness
 - [Hannah](https://nufsae.slack.com/team/U07PFHB6M8F)
-	- Design: LV Box Internal Harness (With Neil)
+	- Design: [[Car Architecture#LV Box\|LV Box]] Internal Harness (With Neil)
 	- Manufacture: Maintenance Panel Harness (With Neil)
 - [Marah](https://nufsae.slack.com/team/U07PYPCL98V)
-	- Design: Penthouse Internal Harness
+	- Design: [[Car Architecture#Penthouse\|Penthouse]] Internal Harness
 	- Manufacture: Backbone Harness
 - [Neil](https://nufsae.slack.com/team/U07QF349F5F)
-	- Design: LV Box Internal Harness (With Hannah)
+	- Design: [[Car Architecture#LV Box\|LV Box]] Internal Harness (With Hannah)
 	- Manufacture: Maintenance Panel Harness (With Hannah)
+
+### Useful Resources:
+[TSMaster Setup and Usage Video](https://www.youtube.com/watch?v=SC9NUNhF2gU) 
+[TSMaster Download Link](https://github.com/TOSUN-Shanghai/TSMaster) 
+[How to Crimp Contacts](https://www.youtube.com/watch?v=GJqt5VYRBro) 
+[How to Crimp Splices](https://youtu.be/G8OpSIAQqtw?si=HFHrOl0FsHYRMd87) 
+[How to Solder Splices](https://youtu.be/u7C2OqBngnw?si=ggfWaJrPUHmEXt7L) 
+[CAN Operation Explained](https://www.digikey.com/en/blog/the-basics-of-the-controller-area-network) 
+[CAN Errors Explained](https://www.csselectronics.com/pages/can-bus-errors-intro-tutorial) 
+
 ### [Project Google Drive](https://drive.google.com/drive/folders/1XJQPlfdeBkZnX8IhdU2FMexnPGzltzIY?usp=sharing)
 
 ### Project Information

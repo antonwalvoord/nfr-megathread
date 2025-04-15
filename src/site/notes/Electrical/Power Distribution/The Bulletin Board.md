@@ -2,29 +2,48 @@
 {"dg-publish":true,"permalink":"/electrical/power-distribution/the-bulletin-board/"}
 ---
 
-## Weekly Goals (Week of January 6)
-**For Harness**
-- [ ] Pair up and review one another's RapidHarness designs
-- [ ] Add [manufacturing notes](https://nufsae.slack.com/archives/C07P7C9PF5F/p1733958734239609) to your designs
-- [ ] Review the [[Electrical/Power Distribution/Harness/Harness\|Harness]] design as a whole or at least the portion you're in charge of manufacturing
-**For PDM**
-- [ ] Test new components and take notes on how they worked
-- [ ] Depending on how testing goes, look into further replacement parts
-- [ ] Begin working on the software for PDM
-**For LV Charger**
-- [ ] Have a finished schematic
-- [ ] Schedule a PDR
+# PDM
+## Hardware
+- Implement efuse circuit fix on AC lines
+- Connect and test Pump and Fan
 
-## Monthly Goals
-**For Harness**
-- [ ] *Completely* finalize internal harness designs
-- [ ] External Harnesses manufactured
-- [ ] Begin testing of external harness
-**For PDM**
-- [ ] Solve overcurrent protection issue
-- [ ] Complete [testing plans](https://docs.google.com/document/d/1Ojkzd-2abVfz04r5hTp6LYRJP8-pr1D0azjeg3GUBKw/edit?usp=sharing) 
-- [ ] Finish software (sans bugfixing)
-**For LV Charger**
-- [ ] Finish schematic and layout
-- [ ] Complete a DR
-- [ ] Have a design ready to be ordered for manufacture
+## Software
+- Officially get current sensing working properly
+- Get software based fusing working
+- Get software efuse resetting working
+- Get AC PWM working
+
+# Harness
+## Purchases
+- [x] Size 20 Pins
+- [x] HDP20 Pin removers
+- [ ] Replacement AC connectors and potentially more crimps
+- [ ] Replacement penthouse TS connectors to repopulate with proper TS wire
+	- [ ] TSMP
+	- [ ] VIB
+	- [ ] BMS
+- [ ] Potentially buy more 3pin connectors for wheel brokers (*did find more after rooting through a box*)
+- [x] New size 4 pins and sockets
+	- [ ] Will need to stay up to date on whether or not these actually come after resubmitting sample request
+	- [ ] Might be able to get away with 15A rated contactor/connectors instead in the same family
+- [ ] Inertial switch connector
+- [ ] Closed barrel splices
+
+## Design updates
+- Potentially a replacement connector for LV box power connector
+- CAN breakout connector
+	- **Need more crimps for this?**
+- General polish (*Thorough look over to see what needs redoing*)
+- CAN backbone length?
+
+## Things that got pushed back
+>Bolding means it needs something purchased for it
+- **Heat shrinking and replacing bad connections in penthouse external GLV connector**
+- **AC Wiring**
+	- External stuff should be able to be assembled and half of internal but need new connector for the board
+- Back box wiring
+	- Board-side connectors should be assembled with extra length wires even though box is not modelled
+- GLVMP wiring (*I think*)
+- Properly pigtail and heatshrink cockpit shutdown connections
+- **Implement inertial switch connection**
+- BOTS wiring (*I think, at the very least likely needs redoing*)

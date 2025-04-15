@@ -2,14 +2,16 @@
 {"dg-publish":true,"permalink":"/electrical/general-electrical-home/","pinned":true}
 ---
 
-## [[General/Car Architecture#Electrical\|Electrical Architecture]]
+## [[Car Architecture#Electrical\|Electrical Architecture]]
 ## [CAN DBC](https://nfr-learn.ue.r.appspot.com/can)
 ## Informational Guides
+- [[Electrical/NFR Electrical Design Guide\|NFR Electrical Design Guide]]
 - [[Electrical/General Electrical/Altium Onboarding Guide\|Altium Onboarding Guide]]
 - [[General/UTM (Free Windows Emulator) Setup Guide\|UTM (Free Windows Emulator) Setup Guide]]
 ## Full Project List
 - [[Electrical/BMS/Battery Management System Home\|BMS:]]
 	- ==Fill in==
+	for update
 - [[Electrical/DAQ/Data Acquisition Home\|DAQ]]
 	- ==Fill in==
 - [[Electrical/Drivetrain Electronics/Drivetrain Electronics Home\|Drivetrain Electronics]]
