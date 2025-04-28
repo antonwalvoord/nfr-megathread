@@ -6,10 +6,14 @@ body {
   --h5-size: 1.12em;
   --h6-size: 1.1em;
 
-  // .cm-header-1 { color: #824407; }
-  // .cm-header-2 { color: #b05d08; }
-  // .cm-header-3 { color: #e07607; }
-  // .cm-header-4 { color: #fa8f1c; }
-  // .cm-header-5 { color: #fda848; }
-  // .cm-header-6 { color: #ffbf75; }
+  /*
+  I don't think this color stuff works across different platforms for some reason
+
+  .cm-header-1 { color: #824407; }
+  .cm-header-2 { color: #b05d08; }
+  .cm-header-3 { color: #e07607; }
+  .cm-header-4 { color: #fa8f1c; }
+  .cm-header-5 { color: #fda848; }
+  .cm-header-6 { color: #ffbf75; }
+  */
 }
