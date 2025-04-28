@@ -15,12 +15,11 @@
 - [x] Confirm PWM CAN id and add to DBC
 # Harness
 ## Design updates
-~~- [ ] Potentially a replacement connector for LV box power connector~~
+- [ ] ~~Potentially a replacement connector for LV box power connector~~
 - [x] CAN breakout connector
-	- **Need more crimps for this?**
 - [ ] Backbox CAN splice
 - [ ] General polish (*Thorough look over to see what needs redoing*)
-- [-] CAN backbone length?
+- [ ] ~~CAN backbone length?~~
 - [ ] Make pigtails for wheel broker board using BMS connectors
 - [x] Make top hoop continuous (either splice or redo depending on time)
 	- move right button breakout [post 6pin connector](https://nufsae.slack.com/archives/C07P7C9PF5F/p1745271704732139)
@@ -43,3 +42,6 @@
 - [ ] **Implement inertial switch connection**
 - [x] BOTS wiring (*I think, at the very least likely needs redoing*)
 - [x] Check Dashbox internal harness for CAN wiring issues focusing on Dashboard specifically - ECU didn't have issues but Dash did
+- [ ] Properly update Penthouse to abide by rules
+	- [ ] Orange wiring with printed specs
+	- [ ] **One missing fuse line**
