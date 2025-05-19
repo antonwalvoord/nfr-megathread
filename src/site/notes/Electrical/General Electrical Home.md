@@ -10,8 +10,9 @@
 - [[General/UTM (Free Windows Emulator) Setup Guide\|UTM (Free Windows Emulator) Setup Guide]]
 ## Full Project List
 - [[Electrical/BMS/Battery Management System Home\|BMS:]]
-	- ==Fill in==
-	for update
+	- [[Electrical/BMS/Voltage Indicator Board (VIB)\|Voltage Indicator Board (VIB)]]
+	- [[Electrical/BMS/High Voltage Battery Management System (HV BMS)\|HV BMS]]
+	- [[Electrical/BMS/Low Voltage Battery Management System (LV BMS)\|LV BMS]]
 - [[Electrical/DAQ/Data Acquisition Home\|DAQ]]
 	- ==Fill in==
 - [[Electrical/Drivetrain Electronics/Drivetrain Electronics Home\|Drivetrain Electronics]]
