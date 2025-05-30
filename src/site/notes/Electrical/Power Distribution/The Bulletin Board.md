@@ -4,20 +4,20 @@
 
 # PDM
 ## Hardware
-- [ ] Implement efuse circuit fix on AC lines
-- [ ] Connect and test Pump and Fan
+- [x] Implement efuse circuit fix on AC lines
+- [x] Connect and test Pump and Fan
 ## Software
 - [ ] Officially get current sensing working properly
 - [ ] Get software based fusing working
 	- [ ] Get the fusing level programmable over CAN
-- [ ] Get software efuse resetting working
-- [ ] Get AC PWM working
+- [x] Get software efuse resetting working
+- [x] Get AC PWM working
 - [x] Confirm PWM CAN id and add to DBC
 # Harness
 ## Design updates
 - [ ] ~~Potentially a replacement connector for LV box power connector~~
 - [x] CAN breakout connector
-- [ ] Backbox CAN splice
+- [x] Backbox CAN splice
 - [ ] General polish (*Thorough look over to see what needs redoing*)
 - [ ] ~~CAN backbone length?~~
 - [ ] Make pigtails for wheel broker board using BMS connectors
@@ -28,7 +28,7 @@
 ## Things that got pushed back
 >Bolding means it needs something purchased for it
 - [x] **Heat shrinking and replacing bad connections in penthouse external GLV connector**
-- [ ] **AC Wiring**
+- [x] **AC Wiring**
 	- External stuff should be able to be assembled and half of internal but need new connector for the board
 - [ ] Back box wiring
 	- Board-side connectors should be assembled with extra length wires even though box is not modelled
